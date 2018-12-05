@@ -1,3 +1,20 @@
+This should work: 
+
+git clone git@github.com:amaleewilson/llvm.git
+cd llvm/tools/
+git clone git@github.com:amaleewilson/clang.git
+cd clang/tools/
+git clone git@github.com:llvm-mirror/clang-tools-extra
+../../../projects/
+git clone git@github.com:llvm-mirror/libcxx
+git clone git@github.com:llvm-mirror/compiler-rt
+cd ../
+mkdir build; cd build ; cmake ..
+make -j20
+
+
+
+
 The LLVM Compiler Infrastructure
 ================================
 
